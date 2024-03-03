@@ -1,3 +1,7 @@
+Hello
+Preview
+
+
 # Project to deploy Microservices using Docker, ECS on Fargate & ALB
 Summary: 
 This project is to demonstrate how we can deploy a simple microservices onto AWS ECS which can be assessed over the internet. Microservices are built using Python with Flask framework, implementing a RESTful API architecture and an Nginx Webserver. All the codes are provided in the Github page. 
@@ -16,5 +20,4 @@ Section 4: Repeat Section 2 & 3 for the Nginx Webserver with the ALB DNS endpoin
 
 Section 5: Testing the output. 
 
-New
-also
+
