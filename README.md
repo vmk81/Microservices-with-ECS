@@ -7,7 +7,11 @@ The end user will access a webpage running on an Nginx Webserver which is hosted
 This project will involve 4 sections. 
 
 Section1: Launch an EC2 instance with Linux AMI that will host your Docker.
+
 Section 2: Build Docker images for API Endpoints and push them into an ECR repository.
+
 Section 3: Launch the ECS Containers to host the API Endpoint services and attach an ALB to them.
+
 Section 4: Repeat Section 2 & 3 for the Nginx Webserver with the ALB DNS endpoints added in the HTML page. 
+
 Section 5: Testing the output. 
