@@ -15,3 +15,6 @@ Section 3: Launch the ECS Containers to host the API Endpoint services and attac
 Section 4: Repeat Section 2 & 3 for the Nginx Webserver with the ALB DNS endpoints added in the HTML page. 
 
 Section 5: Testing the output. 
+
+New
+also
