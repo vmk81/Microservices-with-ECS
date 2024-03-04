@@ -30,7 +30,7 @@ Section 4: Testing the output.
 ![3-ECR-Docker commands](https://github.com/vmk81/Microservices-with-ECS/assets/157844406/5d53307b-5117-470f-8b5e-a30fc64a7624)
 ![4-Docker push to ECR](https://github.com/vmk81/Microservices-with-ECS/assets/157844406/c9cc3dff-66e3-48e9-9561-1fc90e21942e)
 
-###Section 3: Launch the ECS Containers to host the API Endpoint services and attach an ALB to them.  
+### Section 3: Launch the ECS Containers to host the API Endpoint services and attach an ALB to them.  
 5. Navigate to ECS page on the console and click on Task definitions (Red Arrow from the screenshot below) and create new task definition. Give a name for the Task definition family(Black Arrow) and select AWS Fargate as the launch type(Green Arrow).
 ![6-Task Definition 1](https://github.com/vmk81/Microservices-with-ECS/assets/157844406/1c8cced1-8f2f-49d6-8113-ec69798ebda4)  
 
