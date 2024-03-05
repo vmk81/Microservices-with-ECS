@@ -41,15 +41,15 @@ Section 4: Testing the output.
 ![5-Creating ECS Cluster](https://github.com/vmk81/Microservices-with-ECS/assets/157844406/aa8fd1c2-46df-4773-9ac4-b48b3b1b777a)
 
 8. Once the cluster is created, go to the Services tab (Red Arrow from the screenshot below) and click on Create button. Under Application type choose the Service option. Under Task definition, select the Task definition which was created under Step 6. Give a Service Name and select the desired tasks as 3(Black Arrow).
-9. ![7-Create Service 1](https://github.com/vmk81/Microservices-with-ECS/assets/157844406/6d436ea9-613e-440c-b5cd-7e3dbc617ac8)
+![7-Create Service 1](https://github.com/vmk81/Microservices-with-ECS/assets/157844406/6d436ea9-613e-440c-b5cd-7e3dbc617ac8)
 
-10. Under Networking select default VPC and select 2 availability zones. Create a new security group for outside traffic to access the container. Give the inbound rules like its shown in the below screenshot. And then click on the Create button at the bottom of the page(Red Arrow).  
+9. Under Networking select default VPC and select 2 availability zones. Create a new security group for outside traffic to access the container. Give the inbound rules like its shown in the below screenshot. And then click on the Create button at the bottom of the page(Red Arrow).  
 ![8-Create Service 2](https://github.com/vmk81/Microservices-with-ECS/assets/157844406/75030b3a-977b-4925-a584-8b8aa33e7f07)
 
-11. Next expand the Load Balancing – optional section. Choose Application Load Balancer as the Load Balancer type and then click on Create a new load balancer (Red Arrow from the below screenshot). Give a name for the Load balancer. Select ‘Create new listener’ (Black Arrow) and select Port 80 and HTTP protocol. Select ‘Create new target group’ and give a name to the Target group. Under ‘Health check path’(Green Arrow), give the same end point you have given in the Flask app which is /get in this case.  
+10. Next expand the Load Balancing – optional section. Choose Application Load Balancer as the Load Balancer type and then click on Create a new load balancer (Red Arrow from the below screenshot). Give a name for the Load balancer. Select ‘Create new listener’ (Black Arrow) and select Port 80 and HTTP protocol. Select ‘Create new target group’ and give a name to the Target group. Under ‘Health check path’(Green Arrow), give the same end point you have given in the Flask app which is /get in this case.  
 ![9-Load Balancer](https://github.com/vmk81/Microservices-with-ECS/assets/157844406/397cf191-17ca-445d-abe0-993266fb1424)
 
-12. Repeat step 3 to 10 for the POST method also. Make sure the Post service is also created inside the same ECS cluster. 
+11. Repeat step 3 to 10 for the POST method also. Make sure the Post service is also created inside the same ECS cluster. 
 
 ### Section 4: Testing the output.   
 
