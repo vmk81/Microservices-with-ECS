@@ -21,7 +21,7 @@ Section 4: Testing the output.
 ## Detailed Procedure 
 ### Section 1: Launch an EC2 instance with Linux AMI that will host your Docker.  
 
-1.	Launch an EC2 instance with Linux AMI and install Docker on it. For details on how to, please refer to this github link.
+1.	Launch an EC2 instance with Linux AMI and install Docker on it.For details on how to launch an EC2 instance, please refer to this github link. https://github.com/vmk81/Launch-an-EC2-Instance
 
 ### Section 2: Build Docker images for the API Endpoints and push them into an ECR repository.
 
